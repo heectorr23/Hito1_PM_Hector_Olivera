@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFFFFF">
+
+    <EditText
+        android:id="@+id/usernameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingresa tu nombre"
+        android:padding="12dp" />
+
+    <Button
+        android:id="@+id/startGameButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Iniciar juego"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/viewRankingButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ver ranking"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:textColor="#FFFFFF" />
+</LinearLayout>
