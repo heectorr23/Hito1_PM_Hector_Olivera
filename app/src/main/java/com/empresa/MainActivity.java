@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         usernameEditText = findViewById(R.id.usernameEditText);
         Button startGameButton = findViewById(R.id.startGameButton);
 
-        startGameButton.setOnClickListener(v -> { // FUNCIÓN LAMBDA
+        startGameButton.setOnClickListener(v -> {
             String username = usernameEditText.getText().toString();
             if (username.isEmpty()) {
                 Toast.makeText(MainActivity.this, "Please enter your name", Toast.LENGTH_SHORT).show();
@@ -29,8 +29,9 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
         Button viewRankingButton = findViewById(R.id.viewRankingButton);
-        viewRankingButton.setOnClickListener(v -> { // FUNCIÓN LAMBDA
+        viewRankingButton.setOnClickListener(v -> {
             Intent intent = new Intent(MainActivity.this, RankingActivity.class);
             startActivity(intent);
         });
