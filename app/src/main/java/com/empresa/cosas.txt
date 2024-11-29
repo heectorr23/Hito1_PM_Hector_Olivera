@@ -4,3 +4,7 @@ Navega a /data/data/tu.paquete/databases/ y encontrarás game.db.
 Copia el archivo a tu computadora.
 Abre el archivo con un navegador de SQLite como DB Browser for SQLite.
 DESCARGAR SQLITE BROWSER
+--------------------------------------
+
+Textos en español
+Metodos fuera de uso
